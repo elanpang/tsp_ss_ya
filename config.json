@@ -1,0 +1,41 @@
+{
+  "label": "SEGA SATURN",
+  "icon": "ic-saturn.png",
+  "iconsmall": "",
+  "iconlist": "",
+  "background": "bg.png",
+  "themecolor": "FFFF88",
+  "launch": "default.sh",
+  "rompath": "../../Roms/SS",
+  "imgpath": "../../Imgs/SS",
+  "useswap": 1,
+  "shortname": 0,
+  "hidebios": 1,
+  "extlist": "iso|cue|mds|m3u|ccd|chd|zip",
+  "launchlist": [
+    {
+      "name": "Default(RA)",
+      "launch": "launch.sh"
+    },
+    {
+      "name": "--------------    libretro    --------------",
+      "launch": ""
+    },
+    {
+      "name": "RA Yabasanshiro",
+      "launch": "launch.sh"
+    },
+    {
+      "name": "-------------  standalone  -------------",
+      "launch": ""
+    },
+    {
+      "name": "Yabasanshiro (Real BIOS)",
+      "launch": "yabasanshiro_standalone_real.sh"
+    },
+    {
+      "name": "Yabasanshiro (HLE BIOS)",
+      "launch": "yabasanshiro_standalone_hle.sh"
+    }
+  ] 
+}
