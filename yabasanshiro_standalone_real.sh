@@ -10,5 +10,5 @@ $EMU_DIR/cpuswitch.sh
 cd $EMU_DIR/.yabasanshiro
 export HOME="$EMU_DIR/.yabasanshiro"
 
-BIOS_FILE="/mnt/SDCARD/BIOS/saturn_bios.bin"
+BIOS_FILE="$YA_DIR/saturn_bios.bin"
 $YA_DIR/yabasanshiro -r 3 -i "$@" -b "$BIOS_FILE"
